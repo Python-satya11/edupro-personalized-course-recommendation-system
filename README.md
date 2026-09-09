@@ -58,30 +58,22 @@ To publish this app on [Streamlit Community Cloud](https://streamlit.io/cloud), 
 
 ### ⚠️ Important fix needed before deploying
 Your current `app.py` loads the dataset from a hardcoded Windows path:
-```python
 DEFAULT_FILE_PATH = r"C:\Users\ranja\Downloads\EduPro Online Platform.xlsx"
-```
 This will **not** work on Streamlit Community Cloud, since it runs on a Linux server with no access to your PC. Before deploying, change this line to a **relative path** and place the Excel file in the same repo folder as the script:
-```python
 DEFAULT_FILE_PATH = "EduPro_Online_Platform.xlsx"
-```
 
 ### Steps to publish
 1. Rename (or copy) `app.py` to `streamlit_app.py`.
 2. Create `requirements.txt` with:
-   ```
    streamlit
    pandas
    numpy
    scikit-learn
    matplotlib
    openpyxl
-   ```
 3. Push `streamlit_app.py`, `requirements.txt`, and `EduPro_Online_Platform.xlsx` to a GitHub repository.
 4. Go to [share.streamlit.io](https://share.streamlit.io), sign in, click **New app**, select your repo/branch, and set the main file path to `streamlit_app.py`.
 5. Click **Deploy**.
-
----
 
 ## Author 
 
