@@ -84,7 +84,9 @@ DEFAULT_FILE_PATH = "EduProOnlinePlatform.xlsx"
 ```
 
 ### Steps to publish
-1.[app_9](https://app_9.streamlit.app)
+1.[view streamlit](app_9.py)
+2.[view py file ](EduPro_Student_Segmentation.ipynb)
+
 2. Create `requirements.txt` with:
    ```
    streamlit
