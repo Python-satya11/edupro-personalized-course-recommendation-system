@@ -84,7 +84,7 @@ DEFAULT_FILE_PATH = "EduProOnlinePlatform.xlsx"
 ```
 
 ### Steps to publish
-1. Rename (or copy) `app.py` to `streamlit_app.py`.
+1.[app_9](https://app_9.streamlit.app)
 2. Create `requirements.txt` with:
    ```
    streamlit
