@@ -214,7 +214,7 @@ def compute_engagement_lift(_learner_df, _merged_df, _course_similarity_df,
 
 st.sidebar.title("Settings")
 
-DEFAULT_FILE_PATH = r"C:\Users\ranja\Downloads\EduPro Online Platform.xlsx"
+DEFAULT_FILE_PATH = r""C:EduProOnlinePlatform.xlsx"
 
 k = st.sidebar.slider("Number of learner segments (k)", min_value=2, max_value=8, value=4)
 top_n = st.sidebar.slider("Recommendations to show", min_value=3, max_value=10, value=5)
