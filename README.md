@@ -79,9 +79,8 @@ Your current `app.py` loads the dataset from a hardcoded Windows path:
 DEFAULT_FILE_PATH = r""C:\Users\ranja\Downloads\EduProOnlinePlatform.xlsx""
 ```
 This will **not** work on Streamlit Community Cloud, since it runs on a Linux server with no access to your PC. Before deploying, change this line to a **relative path** and place the Excel file in the same repo folder as the script:
-```python
-DEFAULT_FILE_PATH = "EduProOnlinePlatform.xlsx"
-```
+
+[DEFAULT_FILE](EduProOnlinePlatform.xlsx)
 
 ### Steps to publish
 1.[view streamlit](app_9.py)
